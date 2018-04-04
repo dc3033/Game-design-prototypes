@@ -282,9 +282,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Blue1Control.cs" />
-    <Compile Include="Assets\Blue2Control.cs" />
-    <Compile Include="Assets\PCG_script.cs" />
+    <Compile Include="Assets\Scripts\BlastControl.cs" />
+    <Compile Include="Assets\Scripts\Blue1Control.cs" />
+    <Compile Include="Assets\Scripts\Blue2Control.cs" />
+    <Compile Include="Assets\Scripts\BlueScoreControl.cs" />
+    <Compile Include="Assets\Scripts\BombControl.cs" />
+    <Compile Include="Assets\Scripts\CannonControl.cs" />
+    <Compile Include="Assets\Scripts\EndTextControl.cs" />
+    <Compile Include="Assets\Scripts\GemControl.cs" />
+    <Compile Include="Assets\Scripts\LaserControl.cs" />
+    <Compile Include="Assets\Scripts\PCG_script.cs" />
+    <Compile Include="Assets\Scripts\Red1Control.cs" />
+    <Compile Include="Assets\Scripts\Red2Control.cs" />
+    <Compile Include="Assets\Scripts\RedScoreControl.cs" />
+    <Compile Include="Assets\Scripts\SwitchControl.cs" />
+    <Compile Include="Assets\Scripts\TimerControl.cs" />
+    <Compile Include="Assets\Scripts\WindowControl.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

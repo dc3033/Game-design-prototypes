@@ -21,8 +21,9 @@ GameObject:
   - component: {fileID: 4734487496119666}
   - component: {fileID: 212877397755884838}
   - component: {fileID: 61822159592975078}
+  - component: {fileID: 114795955932416440}
   m_Layer: 0
-  m_Name: Laser_yellow
+  m_Name: Laser
   m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,6 +67,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.23809524}
   m_EdgeRadius: 0
+--- !u!114 &114795955932416440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1373513656262818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8847653f2041e2446b20e760028ccc58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lasY: {fileID: 21301640, guid: 9315c8170be7da14fbd3673ae996f91b, type: 3}
+  lasB: {fileID: 21301646, guid: 9315c8170be7da14fbd3673ae996f91b, type: 3}
+  lasR: {fileID: 21301644, guid: 9315c8170be7da14fbd3673ae996f91b, type: 3}
+  status: 0
 --- !u!212 &212877397755884838
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4483330090544392}
   - component: {fileID: 212988691933653274}
   - component: {fileID: 61342390261965958}
+  - component: {fileID: 114262885185488270}
   m_Layer: 0
   m_Name: Switch
   m_TagString: Switch
@@ -66,6 +67,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9047619, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &114262885185488270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244256231177178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3bd1d1194494aa46986db93a20cd505, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gate1: {fileID: 0}
+  gate2: {fileID: 0}
+  notflippedsp: {fileID: 21301624, guid: 9315c8170be7da14fbd3673ae996f91b, type: 3}
+  flippedsp: {fileID: 21301626, guid: 9315c8170be7da14fbd3673ae996f91b, type: 3}
+  flipped: 0
+  switchflip: 0
 --- !u!212 &212988691933653274
 SpriteRenderer:
   m_ObjectHideFlags: 1

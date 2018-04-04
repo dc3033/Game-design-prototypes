@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4134686405526386}
   - component: {fileID: 212411571380239636}
   - component: {fileID: 61773245141771514}
+  - component: {fileID: 114007989589947100}
   m_Layer: 0
   m_Name: Gem
   m_TagString: Gem
@@ -66,6 +67,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &114007989589947100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1298007871521612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695dbd592a584de4892160bfcbaf1faa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueScore: {fileID: 0}
+  redScore: {fileID: 0}
+  holder: {fileID: 0}
+  isHeld: 0
 --- !u!212 &212411571380239636
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -99,7 +115,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1879885741
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300002, guid: 3eaaea4926392174aababcfc4203bc82, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

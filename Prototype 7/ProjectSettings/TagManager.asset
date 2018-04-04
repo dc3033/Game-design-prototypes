@@ -13,6 +13,10 @@ TagManager:
   - Cannon
   - Switch
   - Gem
+  - BFlag
+  - RFlag
+  - Window
+  - Blast
   layers:
   - Default
   - TransparentFX
